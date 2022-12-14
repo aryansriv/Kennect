@@ -1,0 +1,5 @@
+//getElementById
+// It returns an object representing an element whose id matches the specified string.Since ids are unique, it is a very useful way to access any element.
+// Its syntax is:
+    const element = document.getElementById(id)
+   
