@@ -36,5 +36,5 @@ function nextPrime(x) {
         }
     }
 }
-var result = console.log(nextPrime(x)-x);  // let say x = 23 and next prime number is 29 so diff is (29-23) 6 which is shown t the output.
+var result = console.log(nextPrime(x)-x);  // let say x = 23 and next prime number is 29 so diff is (29-23) 6 which is shown at the output.nextprime(x) returns the next prime number and then we are subtracting x to find the difference.
 
