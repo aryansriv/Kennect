@@ -1,0 +1,37 @@
+//to check whether the number is prime or not
+  var x = prompt("Enter the number");
+   if(x == 1){
+      console.log('${x} is not a prime number');
+   }
+    else if(x<1){
+       console.log('${x} is not a prime number');
+    }
+    else{
+        for(var i=2;i<x;i++){
+              if(x%i == 0){
+                 var ans = '${x} is not a prime number';
+                 break;
+              }else{
+                 var ans = '${x} is a prime number';
+              }
+        }
+        console.log(ans);            // here we will get to know whether given number is prime or not
+     }
+ //next prime
+function nextPrime(x) {
+    for (var i = x + 1;; i++) {
+        var isPrime = true;
+        for (var a = 2; a * a <= i; a++) {
+            if (i % a === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime) {
+            return i;
+        }
+    }
+}
+var result = console.log(next_Prime_num(23));  // let x = 23 so here it will return 29
+var diff = result - x;
+console.log(diff);
