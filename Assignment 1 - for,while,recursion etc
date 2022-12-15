@@ -63,6 +63,7 @@ int main(){
     }
     return 0;
 }
+// output is odd as 25 is odd number.
 
 //SWITCH STATEMENT
 //switch statement allows us to evaluates an expression and allows us to match it with different possible cases.
@@ -87,6 +88,7 @@ int main(){
     return 0;
     }
 }
+// output is = number is 25
 
 // RECURSION
 // In simple words, a function that calls itself is known as a recursive function. It has a base case.Suppose if we have to find factorial of  number , then we can use recursion.
@@ -110,6 +112,7 @@ int main(){
     cout<<findFact(n);
     return 0;
 }
+//output is 24
 
 // BINARY SEARCH TREE (BST)
 //Binary search tree allows us to maintain a solrted list of numbers.It is also known as ordered or sorted tree. Its properties are:
